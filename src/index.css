@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+  padding: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.contact {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: .5rem;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.contact-item {
+  margin-bottom: 1rem;
+}
+
+.contact-item > label {
+  margin-right: .5rem;
+}
+
+.btn-add {
+  background-color: #3f51b5;
+  color: #e8eaf6;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-add:hover, .btn-add:active {
+  background-color: #283593;
+}

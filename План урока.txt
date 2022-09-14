@@ -1,0 +1,62 @@
+0. Нужна нода https://nodejs.org/en/download/
+npm install -g npx
+
+1. Создать react проект npx create-react-app
+
+2. Удаляем node_modules
+3. Cтавим react & react-dom ^16.* и запускаем npm i
+4. Cкачиваем npm i --save-dev enzyme enzyme-adapter-react-16
+5. Скачиваем bootstrap npm i react-bootstrap
+
+6. Чистим проект от ненужного
+  - в App ставим классовый компонент
+  - index.js переводим на нужный нам уровень
+  - index.css копируем стили
+
+5. Копируем файл enzyme.js
+6. Запускаем тест npm run test
+
+7. Пишем тест с функцией max_number
+  - describe(name, fn) группирует связанные по логике тесты в один блок
+8. Покрываем тест написав функцию
+
+9. Пишем тест со снапшотами
+  - Snapshots allows you to test if your component renders correctly
+  - When you first run a snapshot test it creates a text file including the textual render of your component tree
+
+10. Пишем тест стейта initializes the `state` with an empty list of contacts
+11. Покрываем тест создавая стейт
+
+12. добавить в App
+  - контейнеры
+  - Кнопку
+
+13. Написать тест adds a new contact to `state`
+  - beforeEach: Runs a function before each of the tests in this file runs. If the function returns a promise or is a generator,
+    Jest waits for that promise to resolve before running the test.
+    This is often useful if you want to reset some global state that will be used by many tests
+  - afterEach: Runs a function after each one of the tests in this file completes.
+    If the function returns a promise or is a generator, Jest waits for that promise to resolve before continuing.
+    This is often useful if you want to clean up some temporary state that is created by each test.
+12 Добавит функцию addContact
+
+13. Создать компонент Contact
+
+14. Добавить тесты:
+  - "adds new contact to the rendered list"
+  - "creates a Contact component"
+15. вывести в App новый контакт, чтоб покрыть тест
+
+16. Добавить тест 'while user wants to remove the added contact'
+17. Написать функцию removeContact
+
+18. Добавить тест снапшота
+19. Добавить тест 'initializes a name, phone and email in `state`'
+
+20. Добавить тест 'when typing in name input'
+21. Добавить инпут name
+
+22. По анологии все остальное
+
+23. Кнопка удалить
+
